@@ -1,0 +1,23 @@
+version: "3"
+services:
+  attack_me:
+    image:  slow:attack_me
+    build: "./DockerFiles/html/"
+    container_name: attack_me
+    ports:
+      - "80:80"
+  prom_attack_me:
+    image:  slow:prometheus
+    build: "./DockerFiles/prometheus/"
+    container_name:  prom_attack_me
+    ports:
+      - "8080:9090"
+
+
+
+
+
+
+
+
+
