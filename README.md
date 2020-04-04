@@ -1,5 +1,8 @@
 # SlowLoris attack proof of concept
 
+## Added docker functionality 
+Docker-compose to start a target container with a vulnerable server
+
 ## What is Slowloris?
 Slowloris is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
 
